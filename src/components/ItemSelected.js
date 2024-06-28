@@ -39,11 +39,11 @@ const ItemSelected = (props) => {
                 </div>
                   <select className="custom-select" id="inputGroupSelect01" onChange={(event) => setName(event.target.value)}>
                         <option defaultValue>Choose...</option>
-                        <option value="Shirt" name="Shirt"> Shirt</option>
-                <option value="Dress" name="Dress">Dress</option>
-                <option value="Jeans" name="Jeans">Jeans</option>
-                <option value="Dinner set" name="Dinner set">Dinner set</option>
-                <option value="Bags" name="Bags">Bags</option>
+                        <option value="Markerting" name="Marketing"> Shirt</option>
+                <option value="Finance" name="Finance">Dress</option>
+                <option value="Sales" name="Sales">Jeans</option>
+                <option value="Human Resources" name="Human Resources">Dinner set</option>
+                <option value="IT" name="IT">Bags</option>
                   </select>
 
                     <div className="input-group-prepend" style={{ marginLeft: '2rem' }}>
